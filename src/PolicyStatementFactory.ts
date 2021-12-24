@@ -1,4 +1,4 @@
-import {PolicyStatement, Effect as CdkIamEffect} from '@aws-cdk/aws-iam';
+import {PolicyStatement, Effect as CdkIamEffect} from 'aws-cdk-lib/aws-iam';
 import {PolicyFactory} from './PolicyFactory';
 
 export class PolicyStatementFactory extends PolicyFactory {

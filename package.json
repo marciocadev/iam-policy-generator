@@ -28,7 +28,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@aws-cdk/aws-iam": "^1.94.1",
+    "aws-cdk": "2.3.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.capitalize": "^4.2.1",
     "lodash.foreach": "^4.5.0",
@@ -40,13 +40,8 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@aws-cdk/aws-dax": "^1.94.1",
-    "@aws-cdk/aws-dynamodb": "^1.94.1",
-    "@aws-cdk/aws-ec2": "^1.94.1",
-    "@aws-cdk/aws-lambda": "^1.94.1",
-    "@aws-cdk/aws-lambda-nodejs": "^1.94.1",
-    "@aws-cdk/aws-s3": "^1.94.1",
-    "@aws-cdk/core": "^1.94.1",
+    "aws-cdk-lib": "2.3.0",
+    "constructs": "^10.0.0",
     "@types/jest": "^26.0.20",
     "@types/lodash.camelcase": "^4.3.6",
     "@types/lodash.capitalize": "^4.2.6",
